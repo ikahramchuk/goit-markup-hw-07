@@ -1,0 +1,51 @@
+.visually-hidden {
+  outline: 2px solid tomato;
+}
+.feature-list {
+  display: flex;
+}
+.feature-list .list-title {
+  width: 270px;
+  margin-right: 30px;
+  & .list-title:nth-child(4n) {
+    margin-right: 0;
+  }
+}
+
+.advantage-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 4px;
+
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: #f5f4fa;
+}
+
+.advantage {
+  color: var(--primary-text-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.advantage-title {
+  color: var(--primary-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
+}
