@@ -1,10 +1,10 @@
-.section-footer {
+.page-footer {
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
-.address {
+.page-footer__address {
   font-style: normal;
   color: #ffffff;
 
@@ -13,11 +13,20 @@
   font-size: 14px;
   line-height: 1.71;
 }
-
-.address-contact {
+.page-footer__contact {
   margin-top: 20px;
 }
-.auth .link-address {
+.page-footer__item {
+  margin-left: auto;
+
+  list-style: none;
+
+  margin-top: 0;
+  margin-bottom: 0;
+  color: var(--accent-color);
+}
+
+.page-footer__link {
   font-size: 14px;
   line-height: 1.71px;
   font-style: normal;
@@ -28,36 +37,35 @@
 
   transition: color 250ms linear;
 }
-.auth .link-address:hover,
-.auth .link-address:focus {
+.page-footer__link:hover,
+.page-footer__link:focus {
   color: var(--accent-color);
 }
-.auth-address:not(:last-child) {
+.page-footer__auth:not(:last-child) {
   margin-bottom: 9px;
-}
-.contact {
-  display: block;
 }
 
 .box {
   display: flex;
   align-items: baseline;
-  justify-content: space-between;
-  /*margin-left: auto;*/
+  // justify-content: space-between;
 }
-.box-icon-link {
+
+.box__icon {
   display: inline-block;
   margin-right: 93px;
 }
-.footer-social-logo {
+.page-footer__social {
   margin-right: 70px;
 }
 /*.footer-social:not(:last-child) {
   
   margin-right: 70px;
 }*/
-
-.footer-link {
+.box-online--margin-left {
+  margin-left: auto;
+}
+.box-footer__text {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -66,12 +74,12 @@
   color: #ffffff;
 }
 
-.comand-link-footer {
+.box-footer__link {
   margin-top: 20px;
   display: flex;
 }
 
-.link-icon-footer {
+.box-footer__image {
   display: flex;
 
   width: 44px;
@@ -91,24 +99,24 @@
   }
 }
 
-.social-icon-footer {
+.box-footer__icon {
   fill: #ffffff;
 }
 
-.footer-icon:not(:last-child) {
+.box-footer__social:not(:last-child) {
   margin-right: 10px;
 }
 
-.online-form {
+.box-online__form {
   display: flex;
   justify-content: center;
 }
 
-.online-title {
+.box-footer__margin-bottom {
   margin-bottom: 20px;
 }
 
-.online-input {
+.box-online__input {
   width: 358px;
   height: 50px;
   background-color: transparent;
@@ -133,11 +141,11 @@
   }
 }
 
-.online-button {
+.box-online__button {
   display: flex;
 }
 
-.button-input {
+.button-online__input {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -159,6 +167,6 @@
   }
 }
 
-.online-icon {
+.button-online__icon {
   margin-left: 10px;
 }

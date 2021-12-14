@@ -1,11 +1,14 @@
+@import './utils/placeholders';
+
 @import './components/header';
-@import './components/hero';
+@import './components/work';
 @import './components/team';
 @import './components/footer';
 @import './components/client';
 @import './components/filter';
-@import './components/work';
-@import './components/backdrop';
+@import './components/section-title';
+@import './components/work-examples';
+@import './components/hero';
 @import './components/container';
 @import './components/btn';
 @import './components/logo';

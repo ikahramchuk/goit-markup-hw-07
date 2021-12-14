@@ -8,8 +8,11 @@
   font-size: 26px;
   line-height: 1.19;
 }
+.page-header__logo {
+  color: var(--accent-color);
+}
 
-.logo-footer {
+.page-footer__logo {
   text-decoration: none;
 
   color: #ffffff;
